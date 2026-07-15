@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meliscent Aquino— Portfolio</title>
+  <meta name="description" content="Personal portfolio built with HTML, CSS, and JavaScript." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="progress-track" aria-hidden="true">
+    <div class="progress-fill" id="progressFill"></div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar">
+      <a href="#home" class="logo">mel<span class="logo-dot">.</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!--homepage-->
+    <section id="home" class="section hero">
+      <div class="container">
+        <span class="badge">Open to internships &amp; freelance work</span>
+        <p class="eyebrow">Welcome to my site</p>
+        <h1 class="hero-name" id="heroName">Loading name…</h1>
+        <p class="hero-role" id="heroRole"></p>
+        <p class="hero-tagline" id="heroTagline"></p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+
+        <a href="#about" class="scroll-cue">Scroll down ↓</a>
+      </div>
+    </section>
+
+    <!--about me-->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-portrait">
+          <div class="portrait-accent" aria-hidden="true"></div>
+          <div class="portrait-frame">
+            <img src ="assets/profile.png" alt="Portrait of Meliscent Aquino" class="portrait-image"/>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="eyebrow">About me</p>
+          <h2 class="section-title">A bit about how I got here</h2>
+          <p class="bio-text" id="aboutBio">Loading bio…</p>
+          <div class="about-facts" id="aboutFacts">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--skills-->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <p class="eyebrow">What I bring</p>
+        <h2 class="section-title">Skills &amp; Tools</h2>
+        <div class="skills-grid" id="skillsGrid">
+        </div>
+      </div>
+    </section>
+
+    <!--my projeects-->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <p class="eyebrow">Recent work</p>
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid" id="projectsGrid">
+        </div>
+      </div>
+    </section>
+
+    <!--my experience and education-->
+    <section id="experience" class="section experience">
+      <div class="container">
+        <p class="eyebrow">How I got here</p>
+        <h2 class="section-title">Education &amp; Experience</h2>
+        <div class="timeline" id="timeline">
+        </div>
+      </div>
+    </section>
+
+    <!--contact me-->
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-intro">
+          <p class="eyebrow">Let's talk</p>
+          <h2 class="section-title light">Let's make something together</h2>
+          <p class="contact-text">Have a project, an opportunity, or just want to talk about design? My inbox is open.</p>
+          <p class="contact-email" id="contactEmail"></p>
+          <div class="socials" id="socials"></div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+
+          <button type="submit" class="btn btn-primary full-width">Send message</button>
+          <p class="form-note">This form doesn't submit anywhere yet — it's a placeholder for Phase 3+.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 <span id="footerName">Meliscent Aquino</span>. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

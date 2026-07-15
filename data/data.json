@@ -1,0 +1,80 @@
+{
+  "profile": {
+    "name": "Meliscent Aquino",
+    "role": "Aspiring Web Developer",
+    "tagline": "Every project starts with an idea and ends with an experience.",
+    "bio": "I'm an IT student who fell in love with the web the first time I realized a browser tab could hold an entire idea. I like clean code, warm colors, and interfaces that feel a little bit like a memory. When I'm not coding, I'm usually watching series, reading books, chasing sunsets, or rebuilding this portfolio for the fifth time.",
+    "location": "La Union, Philippines",
+    "email": "work@melaquino.dev",
+    "socials": [
+      { "name": "GitHub", "url": "https://github.com/bluebelleberry", "icon": "github" },
+      { "name": "Instagram", "url": "", "icon": "instagram" }
+    ]
+  },
+
+  "skills": [
+    { "name": "Java", "level": 69, "category": "Frontend" },
+    { "name": "HTML", "level": 80, "category": "Frontend" },
+    { "name": "CSS", "level": 85, "category": "Frontend" },
+    { "name": "JavaScript", "level": 65, "category": "Frontend" },
+    { "name": "Git & GitHub", "level": 75, "category": "Tools" },
+    { "name": "Figma", "level": 90, "category": "Tools" },
+    { "name": "Problem Solving", "level": 82, "category": "Soft Skills" },
+    { "name": "Communication", "level": 80, "category": "Soft Skills" }
+  ],
+
+  "projects": [
+    {
+      "title": "Rock-Paper-Scissors",
+      "description": "A terminal client vs. client setup allows two players to battle each other over a network connection directly within their command-line interfaces.",
+      "tags": ["Java", "Terminal Game", "Multiplayer"],
+      "image": "assets/rpsgame.png",
+      "github": "https://github.com/bluebelleberry/compro2_MJ2026/tree/36dd14d4fe312c3fe2a7f82dedec357f2d0cf2ca/midterm_lab",
+      "figma": "",
+      "color": "#1B6CA8"
+    },
+    {
+      "title": "BrainFreeze Exam",
+      "description": "A terminal application that simulates an exam environment with a countdown timer, allowing users to answer questions within a set time limit.",
+      "tags": ["Java", "Terminal Application", "Time Management"],
+      "image": "assets/brainfreeze.png",
+      "github": "https://github.com/bluebelleberry/compro2_MJ2026/tree/36dd14d4fe312c3fe2a7f82dedec357f2d0cf2ca/finals",
+      "figma": "",
+      "color": "#1B6CA8"
+    },
+    {
+      "title": "Ardor Music Shop",
+      "description": "A webpage for a fictional music shop, showcasing products, services, and contact information in a visually appealing layout.",
+      "tags": ["UI Design", "Figma", "Prototype"],
+      "image": "assets/ardor.png",
+      "github": "",
+      "figma": "https://www.figma.com/proto/2t5qzbYuSCrP9xrmkJMpBw/ARDOR-Proj?node-id=0-1&t=wIvTgv4kG2s0PHJl-1",
+      "color": "#1B6CA8"
+    }
+  ],
+
+  "experience": [
+    {
+      "year": "2025 — Present",
+      "title": "BS Information Technology",
+      "place": "Lorma Colleges",
+      "description": "Focusing on web development and human-computer interaction. Currently building this very portfolio for my WEBDEV1.",
+      "type": "education"
+    },
+    {
+      "year": "January 2025",
+      "title": "On-the-Job Trainee",
+      "place": "Department of Tourism (DOT)",
+      "description": "Gained hands-on experience in office administration, document management, and workplace communication while supporting daily operations.",
+      "type": "experience"
+    },
+        {
+      "year": "2019 — 2023",
+      "title": "Junior High School",
+      "place": "La Union Cultural Institute",
+      "description": "First introduced to HTML here — built a simple website as our requirement. Learned the basics of programming and web development.",
+      "type": "education"
+    }
+
+  ]
+}
